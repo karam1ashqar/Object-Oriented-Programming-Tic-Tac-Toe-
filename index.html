@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div
+      style="display: grid; margin: auto; justify-content: center; align-items: center; grid-template-columns: 1fr 1fr 1fr; width: 200px"
+    >
+      <div class="ticTacColumn">
+        <div id="item-1"></div>
+        <div id="item-2"></div>
+        <div id="item-3"></div>
+      </div>
+      <div class="ticTacColumn">
+        <div id="item-4"></div>
+        <div id="item-5"></div>
+        <div id="item-6"></div>
+      </div>
+      <div class="ticTacColumn">
+        <div id="item-7"></div>
+        <div id="item-8"></div>
+        <div id="item-9"></div>
+      </div>
+    </div>
+    <style>
+      .ticTacColumn div {
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+        background: #ddd;
+      }
+      .X {
+        background: yellow !important;
+      }
+      .O {
+        background: green !important;
+      }
+    </style>
+    <script src="./script.js"></script>
+  </body>
+</html>
